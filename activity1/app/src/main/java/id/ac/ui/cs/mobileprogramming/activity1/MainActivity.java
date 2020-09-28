@@ -5,7 +5,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.view.Inflater;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -36,10 +35,5 @@ public class MainActivity extends AppCompatActivity {
                 txt.setVisibility(visible ? View.VISIBLE: View.INVISIBLE);
             }
         });
-    }
-
-    public String getHelloWorld() {
-        final String string = getString(text);
-        return string;
     }
 }
