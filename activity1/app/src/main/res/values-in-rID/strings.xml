@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Pindai Wi-Fi</string>
+    <string name="wifi_disabled_message">Wi-Fi tidak aktif... Mohon diaktifkan</string>
+    <string name="scanning">Memindai...</string>
+</resources>
