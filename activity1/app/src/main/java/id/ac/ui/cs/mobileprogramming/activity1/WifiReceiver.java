@@ -83,12 +83,10 @@ class WifiReceiver extends BroadcastReceiver {
 
     class IOAsyncTask extends AsyncTask<Void, Void, String> {
 
+        @RequiresApi(api = Build.VERSION_CODES.KITKAT)
         @Override
         protected String doInBackground(Void... params) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-                return makePost();
-            }
-            return null;
+            return makePost();
         }
 
         @Override

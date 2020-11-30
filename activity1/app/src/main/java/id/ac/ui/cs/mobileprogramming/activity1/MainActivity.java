@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     intentFilter.addAction(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION);
                     MainActivity.this.registerReceiver(wifiReceiver, intentFilter);
                     wifiManager.startScan();
-                    Toast.makeText(MainActivity.this, "Scanning WiFi ...", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.scanning, Toast.LENGTH_SHORT).show();
                 }
             }
         });

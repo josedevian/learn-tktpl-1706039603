@@ -6,9 +6,9 @@ android {
 
     defaultConfig {
         applicationId "id.ac.ui.cs.mobileprogramming.activity1"
-        minSdkVersion 15
+        minSdkVersion 23
         //noinspection ExpiredTargetSdkVersion
-        targetSdkVersion 22
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
